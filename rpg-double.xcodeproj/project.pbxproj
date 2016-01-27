@@ -13,6 +13,7 @@
 		BA4497551C56C456001A2937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4497541C56C456001A2937 /* Assets.xcassets */; };
 		BA4497581C56C456001A2937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4497561C56C456001A2937 /* LaunchScreen.storyboard */; };
 		BA4497601C56CE3E001A2937 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA44975F1C56CE3E001A2937 /* Minecraft.ttf */; };
+		BA4497621C56D1D5001A2937 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4497611C56D1D5001A2937 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BA4497571C56C456001A2937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA4497591C56C456001A2937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA44975F1C56CE3E001A2937 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		BA4497611C56D1D5001A2937 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BA4497541C56C456001A2937 /* Assets.xcassets */,
 				BA4497561C56C456001A2937 /* LaunchScreen.storyboard */,
 				BA4497591C56C456001A2937 /* Info.plist */,
+				BA4497611C56D1D5001A2937 /* Character.swift */,
 			);
 			path = "rpg-double";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4497621C56D1D5001A2937 /* Character.swift in Sources */,
 				BA4497501C56C456001A2937 /* ViewController.swift in Sources */,
 				BA44974E1C56C456001A2937 /* AppDelegate.swift in Sources */,
 			);
